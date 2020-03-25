@@ -1,1 +1,1 @@
-http://dutchybig.ovh/faucet.php?address=EC-UserId-61492&currency=DASH&key=3eec5911ea8d96cc06dd74451d96780f
+http://dutchybig.ovh/faucet.php?address=EC-UserId-37400&currency=DOGE&key=4b6e430f04479f5388a023f7b6f4ef58
