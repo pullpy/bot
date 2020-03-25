@@ -65,8 +65,8 @@ system('clear');
 echo "Wait to Login ....\n";
 sleep(3);
 $bet = '0.00000001';
-$wcs = number_format(rand(70,80),2);
-$nas = 95 / $wcs;
+$wcs = number_format(rand(80,90),1.5);
+$nas = 75 / $wcs;
 $gp = number_format($nas, 5);
 $prof = $gp * 100;
 $prof = $prof / 100 * $bet;
@@ -90,7 +90,7 @@ if($login->error == 0){
 		$bets = number_format(0.001, 8);
 		$cb = $jps;
 		$wcmin = 20;
-		$wcmax = 60;
+		$wcmax = 40;
 		$sp = number_format(0.01, 5);
 		$pr = rand(1,2);
 	}
@@ -99,7 +99,7 @@ if($login->error == 0){
 		$bets = number_format(0.003, 8);
 		$cb = $jps;
 		$wcmin = 20;
-		$wcmax = 60;
+		$wcmax = 40;
 		$sp = number_format(0.05, 5);
 		$pr = rand(1,2);
 	}
@@ -108,7 +108,7 @@ if($login->error == 0){
 		$bets = number_format(0.008, 8);
 		$cb = $jps;
 		$wcmin = 20;
-		$wcmax = 60;
+		$wcmax = 40;
 		$sp = number_format(0.1, 5);
 		$pr = rand(1,2);
 	}
@@ -117,8 +117,8 @@ if($login->error == 0){
 		$bets = number_format(0.01, 8);
 		$cb = $jps;
 		$wcmin = 20;
-		$wcmax = 60;
-		$sp = number_format(0.8, 5);
+		$wcmax = 40;
+		$sp = number_format(0.2, 5);
 		$pr = rand(1,2);
 	}
 system('clear');
